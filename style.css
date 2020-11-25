@@ -9,6 +9,10 @@ body {
     color: black;
     text-align: center;
     background-color: #181818;  
+     background-image: url(images/dark-wood-3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -220,4 +224,58 @@ th, td {
     border-radius: 10px;
     padding:0;
    }
+
+/*Dropdown style*/
+.dropbtn {
+    color: #fff;
+      text-shadow: 1px 1px  #383838;
+     background-color: transparent;
+   padding: 8px;
+   font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+     
+  }
+  
+  button{
+     color: #383838;
+    background-color: #D0D0D0;
+   padding: 8px;
+   font-size: 10px;
+     cursor: pointer;
+  }
+  
+  .dropdown {
+   position: relative;
+   display: inline-block;
+     padding-bottom: 10px;
+  }
+  
+  .dropdown-content {
+   display: none;
+   position:inherit;
+   background-color: white;
+   min-width: 100px;
+  
+   z-index: 1;
+  }
+
+#btn-1, #btn-2, #btn-3{
+     background-color: #383838;
+    color: #fff;
+     border-radius: 5px;
+}
+  
+#btn-1:hover, #btn-2:hover, #btn-3:hover{
+    background-color: #fff;
+    color: #383838;
+}
+  
+  
+  .dropdown-content a:hover {background-color: white}
+  
+  .dropdown:hover .dropdown-content {
+   display: block;
+   background-color: white  
+  }
    
